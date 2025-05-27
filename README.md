@@ -1,37 +1,43 @@
-<img src="Logo.png" width=300px  />
+# CsCrypnostic
 
+CsCrypnostic is a C# library designed to provide cryptographic tools and utilities for secure application development. The project aims to deliver a simple, robust, and extensible framework for encryption, decryption, hashing, and other cryptographic operations, suitable for integration into .NET projects.
 
-WIP - C# Exchange-Agnostic API for various Crypto Exchanges
+## Features
 
-Supported exchanges:
+- Symmetric and asymmetric encryption algorithms
+- Hashing utilities (SHA, MD5, etc.)
+- Secure random number generation
+- Easy integration with .NET applications
+- MIT licensed for open-source use
 
- - Binance
- - Cryptopia
- - Kucoin
- - GDax
- - EtherDelta (broken!)
+## Getting Started
 
-Features:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/TartarusDevtech/CsCrypnostic.git
+   ```
 
- - Auto-Refresh and Throttle
- - Single Coin object per Cryptocurrency
-   - Best Ask/Bid for each Book/Exchange
- - Events:
-   - Coin price updated
- - Filters out Coins in Maintenance (Cryptopia only and does not refresh)
+2. **Add to your project:**
+   - Open the solution in Visual Studio or your favorite C# IDE.
+   - Add the required files or reference the project as needed.
 
-## Setup
+3. **Usage Example:**
+   ```csharp
+   // Example: Hash a string
+   string hash = Crypnostic.Hash("SensitiveData");
+   Console.WriteLine(hash);
+   ```
 
- - Open CrypConnect.sln
- - In the "Package Manager Console", run:
+## Documentation
 
-```
-update-package -reinstall
-```
+Comprehensive documentation is available in the project's Wiki (if enabled) or inline comments within the source code.
 
+## Contributing
 
+Contributions are welcome! Please open issues for bugs or feature requests, and submit pull requests for improvements.
 
-# Stuff
+## License
 
- - Use the Thumbs Up emote on Issues you would like prioritized.
- 
+This project is licensed under the [MIT License](LICENSE).
+
+---
